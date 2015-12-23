@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   '--proxy=127.0.0.1:1080' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\zhouqili\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\zhouqili\\AppData\\Roaming\\npm-cache\\gulp.header\\0.0.1\\package.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\zhouqili\AppData\Roaming\npm-cache\gulp.header\0.0.1\package.tgz
+13 verbose folder .
+14 info prepublish gulp.header@0.0.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\zhouqili\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 6b4cf8bf-he-gulp-header-0-0-1-package-tgz tar://C:\Users\zhouqili\AppData\Roaming\npm-cache\gulp.header\0.0.1\package.tgz
+18 verbose lock tar://C:\Users\zhouqili\AppData\Roaming\npm-cache\gulp.header\0.0.1\package.tgz C:\Users\zhouqili\AppData\Roaming\npm-cache\6b4cf8bf-he-gulp-header-0-0-1-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 6b4cf8bf-he-gulp-header-0-0-1-package-tgz tar://C:\Users\zhouqili\AppData\Roaming\npm-cache\gulp.header\0.0.1\package.tgz
+22 silly lockFile 6b4cf8bf-he-gulp-header-0-0-1-package-tgz tar://C:\Users\zhouqili\AppData\Roaming\npm-cache\gulp.header\0.0.1\package.tgz
+23 silly lockFile 2707cd9d--cache-gulp-header-0-0-1-package C:\Users\zhouqili\AppData\Roaming\npm-cache\gulp.header\0.0.1\package
+24 verbose lock C:\Users\zhouqili\AppData\Roaming\npm-cache\gulp.header\0.0.1\package C:\Users\zhouqili\AppData\Roaming\npm-cache\2707cd9d--cache-gulp-header-0-0-1-package.lock
+25 silly lockFile 2707cd9d--cache-gulp-header-0-0-1-package C:\Users\zhouqili\AppData\Roaming\npm-cache\gulp.header\0.0.1\package
+26 silly lockFile 2707cd9d--cache-gulp-header-0-0-1-package C:\Users\zhouqili\AppData\Roaming\npm-cache\gulp.header\0.0.1\package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'gulp.header',
+29 silly publish   version: '0.0.1',
+29 silly publish   homepage: 'https://github.com/devfe/gulp.header',
+29 silly publish   author: { name: 'keelii', email: 'keeliizhou@gmail.com' },
+29 silly publish   license: 'MIT',
+29 silly publish   repository: { type: 'git', url: 'https://github.com/devfe/gulp.header.git' },
+29 silly publish   main: 'index.js',
+29 silly publish   dependencies: { 'gulp-util': '^3.0.7', lodash: '^3.10.1', through2: '~0.4.0' },
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   bugs: { url: 'https://github.com/devfe/gulp.header/issues' },
+29 silly publish   readme: '# gulp.header\r\n\r\nadd header with data\r\n\r\n## Install\r\n\r\n    $ npm install gulp.header --save-dev\r\n\r\n## How to use\r\n\r\n### general\r\n\r\n    var data       = require(\'gulp-data\');\r\n    var header     = require(\'gulp.header\');\r\n\r\n    // > \'Hello, bar\'\r\n    gulp\r\n    .src(\'src/**/*.js\')\r\n    .pipe(header(\'Hello, {{ foo }}.\', {\r\n        foo: \'bar\'\r\n    }))\r\n\r\n### easy with gulp-data\r\n\r\n    var data       = require(\'gulp-data\');\r\n    var header     = require(\'gulp.header\');\r\n\r\n    gulp\r\n    .src(\'src/**/*.js\')\r\n    .pipe(data(function (file) {\r\n        return {\r\n            filename: path.basename(file.path),\r\n            dir: path.dirname(file.path)\r\n        };\r\n    }))\r\n    // > \'Hello, bar. << xxx.js\'\r\n    .pipe(header(\'Hello, {{ foo }}. << {{ filename }}\', {\r\n        foo: \'bar\'\r\n    }))\r\n\r\n\r\n',
+29 silly publish   description: 'add header with data',
+29 silly publish   _id: 'gulp.header@0.0.1',
+29 silly publish   scripts: {},
+29 silly publish   _shasum: 'f0933603564556292cad8cb6c706eccdd524170a',
+29 silly publish   _from: '.' }
+30 verbose request where is /gulp.header
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 83df1aaedd9c896f
+33 verbose url raw /gulp.header
+34 verbose url resolving [ 'https://registry.npmjs.org/', './gulp.header' ]
+35 verbose url resolved https://registry.npmjs.org/gulp.header
+36 verbose request where is https://registry.npmjs.org/gulp.header
+37 info trying registry request attempt 1 at 21:51:06
+38 http PUT https://registry.npmjs.org/gulp.header
+39 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+40 info trying registry request attempt 2 at 21:51:19
+41 http PUT https://registry.npmjs.org/gulp.header
+42 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+43 info trying registry request attempt 3 at 21:52:21
+44 http PUT https://registry.npmjs.org/gulp.header
+45 error publish Failed PUT undefined
+46 error network tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+46 error network This is most likely not a problem with npm itself
+46 error network and is related to network connectivity.
+46 error network In most cases you are behind a proxy or have bad network settings.
+46 error network
+46 error network If you are behind a proxy, please make sure that the
+46 error network 'proxy' config is set properly.  See: 'npm help config'
+47 error System Windows_NT 6.1.7601
+48 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--proxy=127.0.0.1:1080"
+49 error cwd C:\Users\zhouqili\Desktop\gulp.header
+50 error node -v v0.10.35
+51 error npm -v 1.4.28
+52 error code ECONNRESET
+53 verbose exit [ 1, true ]

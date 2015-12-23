@@ -1,0 +1,24 @@
+{
+  "name": "gulp.header",
+  "version": "0.0.2",
+  "homepage": "https://github.com/devfe/gulp.header",
+  "author": {
+    "name": "keelii",
+    "email": "keeliizhou@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devfe/gulp.header.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "lodash": "^3.10.1",
+    "through2": "~0.4.0"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/devfe/gulp.header/issues"
+  }
+}
